@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Transition for textarea resize */
+textarea {
+  transition: height 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
