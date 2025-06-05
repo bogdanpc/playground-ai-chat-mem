@@ -14,7 +14,7 @@ The backend serves a REST API, while the frontend is a SPA (Single Page Applicat
 ### Prerequisites
 
 - Java 21+. You can download from and install [Oracle](https://dev.java/download/). Or you can use a [SDKMAN!](https://sdkman.io/).
-- Maven 3.9+. Installation guid [here](https://maven.apache.org/install.html)
+- Maven 3.9+. Installation guide [here](https://maven.apache.org/install.html)
 - Node.js (v23 or higher) and npm. Download and install from [here](https://nodejs.org/en)
 - [Podman](https://podman.io/) or (Docker)[https://docs.docker.com/get-started/get-docker/]
 
